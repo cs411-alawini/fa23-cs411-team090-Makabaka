@@ -14,15 +14,6 @@ TODO: **Description** of an application of your choice. State as clearly as poss
 
 The application will utilize the rich dataset available which consists of detailed information of around 13,357 games listed on the Steam platform. This dataset includes attributes such as game title, release date, genre, price, and various popularity metrics like Metacritic scores, player counts, and owner counts. Leveraging this dataset, we plan to develop a web application that will offer users insights into game trends, player reviews, and detailed analytics on various game attributes.
 
-Our platform will serve two types of users: general users looking to explore and find new games, and developers or market analysts seeking detailed analytics and insights into game trends. The users will be able to:
-
-1. **Explore Games**: Browse through a comprehensive list of games available on Steam, with detailed information on each game, including description, genre, release date, price, and popularity metrics.
-
-2. **Game Analytics**: Access detailed analytics on game trends, including popular genres, top-rated games, and emerging trends in the gaming community.
-
-3. **Recommendation System**: Receive personalized game recommendations based on their preferences and gaming history.
-
-4. **Reviews and Ratings**: View and contribute reviews and ratings for different games, helping other users make informed decisions.
 
 ## Usefulness
 
@@ -67,6 +58,18 @@ Our web application will provide the following functionalities:
 3. **Game Analytics**: Users can access detailed analytics on game trends, with visual representations of data for better understanding and analysis.
 4. **Recommendation System**: Users can receive personalized game recommendations based on their preferences and gaming history.
 5. **Reviews and Ratings**: Users can view and contribute reviews and ratings for different games.
+
+/////////////////
+    Our platform will serve two types of users: general users looking to explore and find new games, and developers or market analysts seeking detailed analytics and insights into game trends. The users will be able to:
+
+1. **Explore Games**: Browse through a comprehensive list of games available on Steam, with detailed information on each game, including description, genre, release date, price, and popularity metrics.
+
+2. **Game Analytics**: Access detailed analytics on game trends, including popular genres, top-rated games, and emerging trends in the gaming community.
+
+3. **Recommendation System**: Receive personalized game recommendations based on their preferences and gaming history.
+
+4. **Reviews and Ratings**: View and contribute reviews and ratings for different games, helping other users make informed decisions.
+/////////////
 
 ## Low Fidelity UI Mockup
 
