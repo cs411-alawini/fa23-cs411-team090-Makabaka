@@ -14,7 +14,7 @@ TODO: **Description** of an application of your choice. State as clearly as poss
 
 We plan to develop an integrated system, the primary goal of which is to simplify and personalize the game selection process for players, while providing developers and platform administrators with a powerful game information management tool.
 The application will utilize the rich dataset available which consists of detailed information of around 13,357 games listed on the Steam platform. This dataset includes attributes such as game title, release date, genre, price, and various popularity metrics like Metacritic scores, player counts, and owner counts. 
-Through this application, we can address the difficulties players face when choosing the appropriate games, and also offer a centralized location to manage and update game information, ensuring that players can easily find all the information they need.
+Through this application, we can address the difficulties players face when choosing the appropriate games and offer recommendations, while also offering a centralized location to manage and update game information, ensuring that players can easily find all the information they need.
 
 ## Usefulness
 
