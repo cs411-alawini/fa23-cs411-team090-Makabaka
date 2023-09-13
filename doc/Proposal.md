@@ -83,41 +83,23 @@ The UI will be designed to provide a user-friendly experience, with easy navigat
 
 The main page serves as a gateway to all the features the SteamInsight platform offers. It showcases a dynamic blend of popular games, recent reviews, and news updates, offering users a quick snapshot of what's trending in the Steam gaming community. A navigation bar at the top provides easy access to other sections of the site.
 
-#### Login Page
-
-![login_page](images/login.png)
-
-A secure entry point to the SteamInsight platform, the login page facilitates user authentication by asking for necessary credentials. New users can navigate to the sign-up section from this page to create an account. The design emphasizes simplicity and security.
-
 #### Search Page (with results)
 
-![st1](images/st1.png)
+![st1](images/search.png)
 
 The search page is a powerful tool that enables users to find games, community posts, or user profiles based on their queries. It features advanced filtering options to narrow down the results according to various parameters such as game genre, release date, or popularity metrics.
 
 #### Games Explorer
 
-![st2](images/st2.png)
+![st2](images/explorer.png)
 
 This page acts as a vast repository where users can explore the extensive range of games available on Steam. Users can browse through different categories, including genres, top-rated games, new releases, and more. Each game thumbnail offers a quick overview of the title, including its rating and price.
 
 #### Detailed Game Information
 
-![st3](images/st3.png)
+![st3](images/game_detailed.png)
 
 A dedicated page for each game where users can find detailed information, including a game's synopsis, genre, developer info, release date, and user reviews. This page also hosts interactive elements such as community discussions and links to user-created content related to the game.
-
-#### User Profile Page
-
-![user_profile_page](images/user_profile.png)
-
-This personalized space allows users to manage their profile details, track game history, and adjust their preferences for a tailored experience on the platform. It can also feature a summary of their activity on the site, including reviews written, forum posts, and more.
-
-#### Analytics Dashboard
-
-![analytics_dashboard](images/analytics_dashboard.png)
-
-A data-driven page that showcases comprehensive analytics and trends in the gaming industry. Users can customize their view, accessing dynamic charts, graphs, and insights based on various data points and user preferences, facilitating a deeper understanding of market trends.
 
 #### Community Forum
 
