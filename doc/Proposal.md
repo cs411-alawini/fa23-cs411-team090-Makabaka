@@ -45,15 +45,15 @@ TODO: Describe a unique, innovative feature or component that can significantly 
 
 Our platform is designed to cater to two types of users: general users who are keen to explore and discover new games, and developers or market analysts who are looking for detailed analytics and insights into game trends. Regardless of the user type, our platform offers a rich set of functionalities, including:
 
-1. **User Account Management**: Users can set up and manage their accounts to personalize their experience on the platform. This feature allows users to maintain a history of their preferences and interactions with the application.
+1. **Explore Games**: Browse through a comprehensive list of games available on Steam,with detailed information on each game, including description, genre, release date, price, and popularity metrics，with the ability to filter and sort games based on various attributes such as genre, release date, and popularity metrics.
 
-2. **Game Exploration**: Users can effortlessly browse through a comprehensive and detailed list of games available on Steam. The list showcases various attributes such as genre, release date, price, and popularity metrics, offering a rich source of information on each game. The enhanced filtering and sorting options aid users in finding games that align with their preferences.
+2. **Game Analytics**: Access detailed analytics on game trends, including popular genres, top-rated games, and emerging trends in the gaming community.
 
-3. **Game Analytics**: The platform provides robust analytics functionalities, enabling users to delve deep into game trends. Users can access visual representations of data, gaining insights into popular genres, top-rated games, and emerging trends in the gaming community, fostering a better understanding and analysis of the gaming market.
+1. **User Account Management**: Create and manage their accounts, maintaining a history of their preferences and interactions with the application.
 
-4. **Recommendation System**: Tailored to individual user preferences and gaming history, our recommendation system suggests games that align with users' tastes and preferences. This function helps users discover new games that they might enjoy, enhancing their gaming experience.
+4. **Recommendation System**: Receive personalized game recommendations based on their preferences and gaming history.
 
-5. **Reviews and Ratings**: A collaborative feature where users can view and contribute reviews and ratings for different games. This function fosters a community spirit, helping users make informed decisions based on the experiences of others and sharing their own insights and opinions on various games.
+5. **Reviews and Ratings**: View and write reviews and ratings for different games, helping future users make informed decisions.
 
 ## Low Fidelity UI Mockup
 
