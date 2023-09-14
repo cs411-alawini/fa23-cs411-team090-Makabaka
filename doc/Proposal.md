@@ -49,7 +49,7 @@ Our platform is designed to cater to two types of users: general users who are k
 
 2. **Game Analytics**: Access detailed analytics on game trends, including popular genres, top-rated games, and emerging trends in the gaming community.
 
-1. **User Account Management**: Create and manage their accounts, maintaining a history of their preferences and interactions with the application.
+3. **User Account Management**: Create and manage their accounts, maintaining a history of their preferences and interactions with the application.
 
 4. **Recommendation System**: Receive personalized game recommendations based on their preferences and gaming history.
 
