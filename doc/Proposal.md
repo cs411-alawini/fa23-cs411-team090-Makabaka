@@ -31,11 +31,7 @@ The data for our application is sourced from publicly available Steam APIs and s
 2. **Advanced Analytics and Visualization**
    - **Dynamic Dashboards**: Implement dynamic dashboards where users can customize the view of game statistics and analytics based on their preferences.
 
-3. **Gaming Events and Tournaments**
-   - **Event Calendar**: Create a section where users can find and participate in various gaming events, tournaments, or community meetings.
-   - **Event Creation**: Users can create and host their gaming events, inviting others to join and participate.
-
-4. **User-Created Content and Guides**
+3. **User-Created Content and Guides**
    - **User Guides and Tutorials**: Users can create and share guides, tutorials, and tips for various games, helping others in the community.
    - **Content Rating and Reviews**: Users can rate and review the content created by others, encouraging quality content creation.
 
