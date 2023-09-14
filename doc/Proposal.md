@@ -54,21 +54,15 @@ TODO: functionality that your website offers. This is where you talk about what 
 
 Our platform will serve two types of users: general users looking to explore and find new games, and developers or market analysts seeking detailed analytics and insights into game trends. The users will be able to:
 
-1. **User Account Management**: Users can create and manage their accounts, maintaining a history of their preferences and interactions with the application.
-2. **Game Exploration**: Users can browse through a detailed list of games, with the ability to filter and sort games based on various attributes such as genre, release date, and popularity metrics.
-3. **Game Analytics**: Users can access detailed analytics on game trends, with visual representations of data for better understanding and analysis.
-4. **Recommendation System**: Users can receive personalized game recommendations based on their preferences and gaming history.
-5. **Reviews and Ratings**: Users can view and contribute reviews and ratings for different games.
-
-
-1. **Explore Games**: Browse through a comprehensive list of games available on Steam, with detailed information on each game, including description, genre, release date, price, and popularity metrics.
+1. **Explore Games**: Browse through a comprehensive list of games available on Steam,with detailed information on each game, including description, genre, release date, price, and popularity metrics，with the ability to filter and sort games based on various attributes such as genre, release date, and popularity metrics.
 
 2. **Game Analytics**: Access detailed analytics on game trends, including popular genres, top-rated games, and emerging trends in the gaming community.
 
-3. **Recommendation System**: Receive personalized game recommendations based on their preferences and gaming history.
+1. **User Account Management**: Create and manage their accounts, maintaining a history of their preferences and interactions with the application.
 
-4. **Reviews and Ratings**: View and contribute reviews and ratings for different games, helping other users make informed decisions.
-/////////////
+4. **Recommendation System**: Receive personalized game recommendations based on their preferences and gaming history.
+
+5. **Reviews and Ratings**: View and write reviews and ratings for different games, helping future users make informed decisions.
 
 ## Low Fidelity UI Mockup
 
