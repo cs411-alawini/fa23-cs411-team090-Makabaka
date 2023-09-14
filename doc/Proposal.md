@@ -25,8 +25,6 @@ The data for our application is sourced from publicly available Steam APIs and s
 
 ## Creative Component
 
-TODO: Describe a unique, innovative feature or component that can significantly enhance the functionality or appeal of the application. For instance, a community-based feature where users can create gaming communities, discuss, and share ratings.
-
 1. **Community Integration**
    - **Forums and Discussion Boards**: Users can join community forums to discuss various game topics, share experiences, and seek advice or recommendations.
 
