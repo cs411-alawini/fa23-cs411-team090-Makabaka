@@ -6,7 +6,7 @@
 
 TODO: It should be a 1-2 paragraph description of what your project is.
 
-The Steam Game Analytics and Recommendation Platform is a comprehensive system developed to cater to the growing gaming community on the Steam platform. Our application aims to provide users with detailed analytics of various games available on Steam, including trends, user recommendations, and insights into different game attributes such as genre, release date, and popularity metrics. Furthermore, the platform will feature a recommendation system, helping users discover new games based on their preferences and gaming history. The project intends to enhance the gaming experience by providing a centralized platform where users can access detailed analytics and find their next favorite game more efficiently.
+The Steam Game Analytics and Recommendations Platform is a comprehensive system designed to meet the needs of the growing gaming community on the Steam platform. Our app is designed to provide users with a detailed analysis of the various games available on Steam, and users can either browse the list as a whole or sort their own search by trends, user recommendations, and different game attributes such as genre, release date, and popularity metrics. In addition, the platform will be equipped with a recommendation system to help users discover new games based on their preferences and gaming history. The project aims to enhance the gaming experience by providing a centralized platform where users can access detailed analysis and more effectively find their next favorite game.
 
 ## Description
 
@@ -52,7 +52,7 @@ TODO: Describe a unique, innovative feature or component that can significantly 
 
 TODO: functionality that your website offers. This is where you talk about what the website delivers. Talk about how a user would interact with the application (i.e., things that one could create, delete, update, or search for). Read the requirements for stage 4 to see what other functionalities you want to provide to the users. 
 
-Our web application will provide the following functionalities:
+Our platform will serve two types of users: general users looking to explore and find new games, and developers or market analysts seeking detailed analytics and insights into game trends. The users will be able to:
 
 1. **User Account Management**: Users can create and manage their accounts, maintaining a history of their preferences and interactions with the application.
 2. **Game Exploration**: Users can browse through a detailed list of games, with the ability to filter and sort games based on various attributes such as genre, release date, and popularity metrics.
@@ -60,8 +60,6 @@ Our web application will provide the following functionalities:
 4. **Recommendation System**: Users can receive personalized game recommendations based on their preferences and gaming history.
 5. **Reviews and Ratings**: Users can view and contribute reviews and ratings for different games.
 
-/////////////////
-    Our platform will serve two types of users: general users looking to explore and find new games, and developers or market analysts seeking detailed analytics and insights into game trends. The users will be able to:
 
 1. **Explore Games**: Browse through a comprehensive list of games available on Steam, with detailed information on each game, including description, genre, release date, price, and popularity metrics.
 
@@ -112,8 +110,8 @@ A bustling community space where users can engage in vibrant discussions, share 
 
 Our tentative work distribution is as follows:
 
-- **Member 1**: Responsible for developing the backend of the application, including database management and implementation of analytical functions.
-- **Member 2**: Responsible for developing the frontend of the application, focusing on UI/UX design and implementation.
-- **Member 3**: Responsible for implementing the recommendation system and integrating it with the application.
-- **Member 4**: Responsible for managing the project, coordinating between team members, and overseeing the overall development of the application.
+- **Peter Zhu**: Responsible for developing the backend of the application, including database management and implementation of analytical functions.
+- **Zoey Yao**: Responsible for developing the frontend of the application, focusing on UI/UX design and implementation.
+- **Xing Zhao**: Responsible for implementing the recommendation system and integrating it with the application.
+- **Eric Cheng**: Responsible for managing the project, coordinating between team members, and overseeing the overall development of the application.
 
