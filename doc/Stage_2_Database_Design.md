@@ -149,7 +149,7 @@ The database design will be converted into 11 tables.
 
 **1. UserInfo**
 
-```
+```mysql
 UserInfo(
     UserID VARCHAR(255) [PK],
     UserName VARCHAR(255),
