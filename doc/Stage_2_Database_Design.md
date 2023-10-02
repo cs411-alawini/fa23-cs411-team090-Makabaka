@@ -12,106 +12,66 @@ There are a total of 6 entities for our database design. Each is explained in de
 ### 1. GameInfo
 
 This is an entity regarding game information, with 18 attributes.
-
-- **QueryID**
-    - primary key
-    - e.x. `10`
-- QueryName
-    - e.x. `Counter-Strike`
-- ReleaseDate
-    - e.x. `Nov 1 2000`
-- RequiredAge
-    - e.x. `0` or `17` ......
-- RecommendationCount
-    - e.x. `68991`
-- ControllerSupport
-    - TRUE / FALSE
-- IsFree
-    - TRUE / FALSE
-- PriceCurrency
-    - can be NULL if `IsFree` is TRUE
-    - Type of currency
-- PriceInitial
-    - init price
-- PriceFinal
-    - Current price
-- SupportURL
-    - can be NULL
-- DetailedDescrip
-    - Most are descriptions, but can be NULL
-- HeaderImage
-    - e.x. `http://cdn.akamai.steamstatic.com/steam/apps/10/header.jpg?t=1447887426`
-- Reviews
-    - For game reviewers, it can be NULL
-- SupportedLanguages
-    - Can't use space split, otherwise "Simplified Chinese Traditional Chinese" will be an error.
+ 
+1. **QueryID**: a unique identifier to distinguish between queries. This should be a numeric attribute and primary key for this table. 
+2. QueryName: a string attribute, the name of the query.
+3. ReleaseDate: a date attribute, the release date of the query.
+4. RequiredAge: a numeric attribute, the required age for the query.
+5. RecommendationCount: a numeric attribute, the number of recommendations for the query.
+6. ControllerSupport: a boolean attribute, indicating whether the query supports controller input (TRUE) or not (FALSE).
+7. IsFree: a boolean attribute, indicating whether the query is free (TRUE) or not (FALSE)
+8. PriceCurrency: a string attribute, the type of currency for the query. This attribute can be NULL if IsFree is TRUE.
+9. PriceInitial: a numeric attribute, the initial price of the query.
+10. PriceFinal: a numeric attribute, the current price of the query.
+11. SupportURL: a string attribute, the support URL for the query. This attribute can be NULL.
+12. DetailedDescrip: a string attribute, the detailed description of the query. Most are descriptions, but this attribute can be NULL.
+13. HeaderImage: a string attribute, the URL of the header image for the query.
+14. Reviews: a string attribute, for game reviewers' comments. This attribute can be NULL.
+15. SupportedLanguages: a string attribute, the supported languages for the query. Note that spaces should not be used as separators to avoid errors (e.g., "Simplified Chinese Traditional Chinese").
 
 ### 2. Genres
 
-This is an entity regarding genres information.
+This is an entity regarding genre information.
+1. **GenresID**:a unique identifier to distinguish between genres. This should be a numeric attribute and primary key for this table.
+2. GenreIsSinglePlayer: a boolean attribute, indicating whether the genre supports single-player mode (TRUE) or not (FALSE).
+3. GenreIsMultiplayer: a boolean attribute, indicating whether the genre supports multiplayer mode (TRUE) or not (FALSE).
+4. GenreIsMMO: a boolean attribute, indicating whether the genre supports massively multiplayer online (MMO) mode (TRUE) or not (FALSE).
+5. GenreIsVRSupport: a boolean attribute, indicating whether the genre supports virtual reality (VR) (TRUE) or not (FALSE).
+6. GenreIsNonGame: a boolean attribute, indicating whether the genre is a non-game (TRUE) or not (FALSE).
+7. GenreIsIndie: a boolean attribute, indicating whether the genre is indie (TRUE) or not (FALSE).
+8. GenreIsAction: a boolean attribute, indicating whether the genre is action (TRUE) or not (FALSE).
+9. GenreIsAdventure: a boolean attribute, indicating whether the genre is adventure (TRUE) or not (FALSE).
+10. GenreIsCasual: a boolean attribute, indicating whether the genre is casual (TRUE) or not (FALSE).
+11. GenreIsStrategy: a boolean attribute, indicating whether the genre is strategy (TRUE) or not (FALSE).
+12. GenreIsRPG: a boolean attribute, indicating whether the genre is a role-playing game (RPG) (TRUE) or not (FALSE).
+13. GenreIsSimulation: a boolean attribute, indicating whether the genre is simulation (TRUE) or not (FALSE).
+14. GenreIsFreeToPlay: a boolean attribute, indicating whether the genre is free to play (TRUE) or not (FALSE).
+15. GenreIsSports: a boolean attribute, indicating whether the genre is sports (TRUE) or not (FALSE).
+16. GenreIsRacing: a boolean attribute, indicating whether the genre is racing (TRUE) or not (FALSE).
+17. GenreIsMassivelyMultiplayer: a boolean attribute, indicating whether the genre is massively multiplayer (TRUE) or not (FALSE).
 
-- **GenresID**
-    - PK(primary key)
 
-- CategorySinglePlayer
-    - TRUE / FALSE
-- CategoryMultiplayer
-    - TRUE / FALSE
-- CategoryMMO
-    - TRUE / FALSE
-- CategoryVRSupport
-    - TRUE / FALSE
-- GenreIsNonGame
-    - TRUE / FALSE
-- GenreIsIndie
-    - TRUE / FALSE
-- GenreIsAction
-    - TRUE / FALSE
-- GenreIsAdventure
-    - TRUE / FALSE
-- GenreIsCasual
-    - TRUE / FALSE
-- GenreIsStrategy
-    - TRUE / FALSE
-- GenreIsRPG
-    - TRUE / FALSE
-- GenreIsSimulation
-    - TRUE / FALSE
-- GenreIsFreeToPlay
-    - TRUE / FALSE
-- GenreIsSports
-    - TRUE / FALSE
-- GenreIsRacing
-    - TRUE / FALSE
-- GenreIsMassivelyMultiplayer
-    - TRUE / FALSE
+
+
 
 ### 3. Platform
 
 This is an entity regarding platform information, with four attributes.
 
-- **PlatformID**
-    - primary key
-    - e.x. `1`, `2` ..., `123`
-
-- PlatformName
-    - Now, 3 choices: Windows / Linux / Mac
-- MinReqsText
-    - can be NULL
-- RecReqsText
-    - can be NULL
+1. **PlatformID**:a unique identifier to distinguish between platforms. This should be a numeric attribute and primary key for this table.
+2. PlatformName: a string attribute, the name of the platform. There are currently three choices: Windows, Linux, and Mac. 
+3. MinReqsText: a string attribute, the minimum requirements text for the platform. This attribute can be NULL, meaning it is optional and may not always have a value.
+4.  RecReqsText: a string attribute, the recommended requirements text for the platform. This attribute can also be NULL, indicating that it is optional and may not always have a value.
 
 ### 4. DeveloperInfo
 
 This is an entity regarding developer information, with three attributes.
 
-- **DeveloperId**
-    - prime key
-    - e.x. `1`, `2` ..., `123`
-- DeveloperName
-    - e.x. `Value`
-- Website
-    - can be NULL
+1. **DeveloperID**: a unique identifier to distinguish between developers. This should be a string attribute and primary key for this table.
+2. DeveloperName: a string attribute, the name of the developer.
+3.  Website: a string attribute, the website associated with the developer. This attribute can be NULL, meaning it is optional and may not always have a value.
+
+
 
 ### 5. UserInfo
 
