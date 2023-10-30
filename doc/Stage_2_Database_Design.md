@@ -143,6 +143,45 @@ The relation has the following attributes:
 1. DLCID: Foreign key to `DLCInfo`, to identify the DLC which the game has.
 2. QueryID: Foreign key to `GameInfo`, to identify the game which the DLC belongs to.
 
+## BCNF
+
+#### Entities
+
+1. **GameInfo**: This table is in BCNF as all attributes are functionally dependent on the primary key $ \text{QueryID} $ and there are no non-trivial functional dependencies that violate BCNF.
+
+2. **Genres**: This table is in BCNF as it has only two attributes, and one of them is a primary key.
+
+3. **Platform**: This table is in BCNF for the same reason as Genres.
+
+4. **DeveloperInfo**: This table is in BCNF as all attributes are functionally dependent on the primary key $ \text{DeveloperID} $.
+
+5. **UserInfo**: This table is in BCNF as all attributes are functionally dependent on the primary key $ \text{UserID} $.
+
+6. **DLCInfo**: This table is in BCNF as all attributes are functionally dependent on the primary key $ \text{DLCID} $.
+
+#### Relations
+
+1. **Favorites**: This table is in BCNF as the combination of $ \text{UserID} $ and $ \text{QueryID} $ acts as a composite primary key, and there are no other attributes.
+
+2. **Comments**: This table is in BCNF because every attribute is functionally dependent on the primary key $ \text{CommentID} $.
+
+3. **Develop**: This table is in BCNF as the combination of $ \text{DeveloperID} $ and $ \text{QueryID} $ acts as a composite primary key, and there are no other attributes.
+
+4. **GamePlatform**: This table is in BCNF as every attribute is functionally dependent on the composite primary key $ \text{QueryID} $ and $ \text{PlatformID} $.
+
+5. **GameGenres**: This table is in BCNF as the combination of $ \text{QueryID} $ and $ \text{GenresID} $ acts as a composite primary key, and there are no other attributes.
+
+6. **HaveDLC**: This table is in BCNF as all attributes are functionally dependent on the primary key $ \text{DLCID} $.
+
+
+
+We chose to apply BCNF as it is stricter and ensures that all data dependencies make sense. All the tables and relations in your schema are already in BCNF, which means your database schema is highly normalized.
+
+By adhering to BCNF, you ensure that the database schema has the following advantages:
+
+1. Minimizes redundancy
+2. Simplifies the enforcement of referential integrity constraints
+3. Eases the data maintenance and ensures data integrity
 
 ## Relational Schema
 The database design will be converted into 11 tables.
