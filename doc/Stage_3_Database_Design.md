@@ -4,10 +4,12 @@
 ![dababase_table](images/dababase_table.png)
 
 three tables with at least 1000 rows:
+
 ![dababase_table_counts](images/dababase_table_counts.png)
 
 
 ## DDL Commands
+
 ```sql
 CREATE DATABASE /*!32312 IF NOT EXISTS*/`classicmodels` /*!40100 DEFAULT CHARACTER SET latin1 */;
 
