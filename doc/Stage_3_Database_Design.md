@@ -159,8 +159,11 @@ It find all "Action" games and we add a constraint that the description and Reco
 ```sql
 SELECT DISTINCT DI.DeveloperName, G.QueryName, G.RecommendationCount
 FROM GameInfo G NATURAL JOIN Develop D NATURAL JOIN DeveloperInfo DI
-WHERE G.PriceFinal < 10 AND G.PriceCurrency = 'USD' AND G.SupportedLanguages LIKE '%English%' AND G.QueryID = any (
- SELECT QueryID
+WHERE G.PriceFinal < 10 
+  AND G.PriceCurrency = 'USD' 
+  AND G.SupportedLanguages LIKE '%English%' 
+  AND G.QueryID = ANY (
+    SELECT QueryID
     FROM DLCInfo D
     WHERE D.DLCPrice < 10
 )
