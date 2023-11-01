@@ -291,7 +291,7 @@ Findings and Explanation
 
 2. Reason for Lack of Improvement:
     - The `EXPLAIN ANALYZE` result shows that the time taken for "Index lookup on D using QueryID" remained the same, indicating that the index on `DLCPrice` didn't optimize that part.
-    - Complex joins and filtering conditions in your SQL query might be dominating the performance characteristics, making the index less useful.
+    - Complex joins and filtering conditions in SQL query might be dominating the performance characteristics, making the index less useful.
 
 ![Analysis_Q_2_idx_2](images/Analysis_Q_2_idx_2.png)
 
