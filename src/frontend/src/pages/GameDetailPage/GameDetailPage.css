@@ -1,0 +1,12 @@
+.RestaurantDetailPage-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.RestaurantDetailPage-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  
