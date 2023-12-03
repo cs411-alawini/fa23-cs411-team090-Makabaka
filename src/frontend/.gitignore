@@ -32,7 +32,6 @@ npm-debug.log
 .DS_Store
 
 # dotenv environment variable files
-!.env.example
 .env
 .env.development.local
 .env.test.local
