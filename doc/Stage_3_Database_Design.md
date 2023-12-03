@@ -79,10 +79,10 @@ CREATE TABLE Favorites (
 -- Comments Table
 DROP TABLE IF EXISTS `Comments`;
 CREATE TABLE Comments (
-    CommentID INT PRIMARY KEY,
+    CommentID INT AUTO_INCREMENT PRIMARY KEY,
     CommentText TEXT,
     Rating INT CHECK (Rating BETWEEN 1 AND 5),
-    CommentDate VARCHAR(255),
+    CommentDate DATE,
     UserID INT,
     QueryID INT,
     FOREIGN KEY (UserID) REFERENCES UserInfo(UserID)
