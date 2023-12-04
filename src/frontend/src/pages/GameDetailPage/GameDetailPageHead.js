@@ -46,9 +46,11 @@ const GameDetailPageHead = ({ user, detail, gameGenre }) => {
                     <Typography variant="h4" component="h1" sx={{ marginRight: 1 }}>
                         {detail.QueryName}
                     </Typography>
-                    <IconButton onClick={handleFavoriteClick}>
-                        {isFavorite ? <StarIcon style={{ color: 'orange' }} /> : <StarIcon style={{ color: 'white' }} />}
-                    </IconButton>
+                    {user && (
+                        <IconButton onClick={handleFavoriteClick}>
+                            {isFavorite ? <StarIcon style={{ color: 'orange' }} /> : <StarIcon style={{ color: 'white' }} />}
+                        </IconButton>
+                    )}
                 </Box>
                 <Typography variant="subtitle1">
                     Recommendation Count: {detail.RecommendationCount}
