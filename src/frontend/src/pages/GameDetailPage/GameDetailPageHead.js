@@ -8,10 +8,13 @@ const GameDetailPageHead = ({ user, detail, gameGenre }) => {
     const genreDisplay = gameGenre.map(genre => genre.GenreName).join(" | ");
     
     useEffect(() => {
+        if (!user) {
+            return;
+        }
         axios.post(`${process.env.REACT_APP_API_URL}/api/user/${user.UserID}/favor`, { gameID: detail.QueryID })
             .then(response => setIsFavorite(response.data.isFavorite))
             .catch(error => console.error('Error:', error));
-    }, [user.UserID, detail.QueryID]);
+    }, [user, detail.QueryID]);
     
     const handleFavoriteClick = () => {
         const apiEndpoint = isFavorite ? `${process.env.REACT_APP_API_URL}/api/user/${user.UserID}/removefavor` : `${process.env.REACT_APP_API_URL}/api/user/${user.UserID}/addfavor`;
