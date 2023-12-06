@@ -4,11 +4,7 @@ const allTypes = ['SinglePlayer', 'Indie', 'Action', 'Adventure', 'Casual', 'Mul
 const otherTypes = ['IncludeSrcSDK', 'IncludeLevelEditor', 'InAppPurchase', 'FreeToPlay', 'Coop', 'RPG', 'NonGame', 'Racing', 'MMO', 'MassivelyMultiplayer', 'Sports', 'EarlyAccess', 'VRSupport'];
 
 exports.topgame = (req, res) => {
-    const query = `
-        SELECT QueryID, QueryName, ReleaseDate, RecommendationCount, IsFree, PriceCurrency, PriceFinal, DetailedDescrip, HeaderImage 
-        FROM GameInfo 
-        ORDER BY RecommendationCount DESC 
-        LIMIT 5`;
+    const query = `SELECT * FROM TopGamesCache`;
 
     db.query(query, (error, results, fields) => {
         if (error) {

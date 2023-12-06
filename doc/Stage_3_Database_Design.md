@@ -126,6 +126,21 @@ CREATE TABLE GameGenres (
     FOREIGN KEY (QueryID) REFERENCES GameInfo(QueryID)
         ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `TopGamesCache`;
+CREATE TABLE TopGamesCache (
+    CacheID INT AUTO_INCREMENT PRIMARY KEY,
+    QueryID INT,
+    QueryName VARCHAR(255),
+    ReleaseDate VARCHAR(255),
+    RecommendationCount INT,
+    IsFree BOOLEAN,
+    PriceCurrency VARCHAR(255),
+    PriceFinal DECIMAL(10,2),
+    DetailedDescrip TEXT,
+    HeaderImage VARCHAR(255)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
 ```
 
 ## Advanced Queries
