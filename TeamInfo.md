@@ -20,7 +20,7 @@
 |   Info      |        Description     |
 | ----------- | ---------------------- |
 |  Title      |       SteamInsight     |
-| System URL  |      link_to_system    |
+| System URL  |  steaminsight.ddns.net |
 | Video Link  |      link_to_video     |
 
 ## Project Summary
