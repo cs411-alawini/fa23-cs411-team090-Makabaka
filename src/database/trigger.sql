@@ -30,19 +30,12 @@ DELIMITER ;
 
 DELIMITER $$
 
-CREATE TRIGGER UpdateTopGames
-AFTER UPDATE ON GameInfo
-FOR EACH ROW
+CREATE PROCEDURE GetTopGames()
 BEGIN
-    IF OLD.RecommendationCount <> NEW.RecommendationCount THEN
-        DELETE FROM TopGamesCache;
-
-        INSERT INTO TopGamesCache(QueryID, QueryName, ReleaseDate, RecommendationCount, IsFree, PriceCurrency, PriceFinal, DetailedDescrip, HeaderImage)
-        SELECT QueryID, QueryName, ReleaseDate, RecommendationCount, IsFree, PriceCurrency, PriceFinal, DetailedDescrip, HeaderImage 
-        FROM GameInfo 
-        ORDER BY RecommendationCount DESC 
-        LIMIT 5;
-    END IF;
+    SELECT QueryID, QueryName, ReleaseDate, RecommendationCount, IsFree, PriceCurrency, PriceFinal, DetailedDescrip, HeaderImage 
+    FROM GameInfo 
+    ORDER BY RecommendationCount DESC 
+    LIMIT 5;
 END$$
 
 DELIMITER ;

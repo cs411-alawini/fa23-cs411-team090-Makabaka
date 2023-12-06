@@ -4,7 +4,7 @@ const allTypes = ['SinglePlayer', 'Indie', 'Action', 'Adventure', 'Casual', 'Mul
 const otherTypes = ['IncludeSrcSDK', 'IncludeLevelEditor', 'InAppPurchase', 'FreeToPlay', 'Coop', 'RPG', 'NonGame', 'Racing', 'MMO', 'MassivelyMultiplayer', 'Sports', 'EarlyAccess', 'VRSupport'];
 
 exports.topgame = (req, res) => {
-    const query = `SELECT * FROM TopGamesCache`;
+    const query = `CALL GetTopGames();`;
 
     db.query(query, (error, results, fields) => {
         if (error) {
